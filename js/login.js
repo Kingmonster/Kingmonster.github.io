@@ -19,8 +19,6 @@ function submitLoginformEvent(event)
     displayGreeting();
 }
 
-console.log(localStorage.getItem(NAME_KEY));
-
 if( localStorage.getItem(NAME_KEY) === null )
 {
     loginForm.classList.remove(HIDDEN_CLASS);
