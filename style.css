@@ -2,11 +2,61 @@
     display: none;
 }
 
-.bgImg {
-    max-width:100%;
-    height: auto;
+.main {
+    flex: auto;
 }
 
-.body img {
-    vertical-align: middle;
+.bgImg {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    max-width:100%;
+    height: auto;    
+    display: flex;
+}
+
+#clock {
+    font-size: 40px;    
+    text-align: center;    
+}
+
+#login-form {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#greeting {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#todolist-form {
+    text-align: center;
+}
+
+#todolist{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weather-div {
+    float: right;
+}
+
+#temperture {
+    font-size: small;
+}
+
+#humidity {
+    font-size: small;
+}
+
+#weather {
+    font-size: small;
+}
+
+#position {
+    font-size: small;
 }
