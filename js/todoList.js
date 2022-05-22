@@ -15,9 +15,7 @@ function loadToDoList()
     }
 }
 
-function displayToDo(itemObj) {
-    
-    console.log(itemObj["value"]);
+function displayToDo(itemObj) {       
     const li = document.createElement("li");
     li.id = itemObj.id;
 
