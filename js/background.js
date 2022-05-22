@@ -18,6 +18,7 @@ function setImage() {
 
     const imageElem = document.createElement("img");
     imageElem.src = `${chosenImage}`;
+    imageElem.classList.add("bgImg");
     body.appendChild(imageElem);
 }
 
